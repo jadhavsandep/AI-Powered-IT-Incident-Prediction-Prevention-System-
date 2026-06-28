@@ -1,31 +1,29 @@
-📊 Project Highlights
-📁 1,000 IT system monitoring records analyzed
-
-📈 25 features used for analysis and prediction
-
-📓 5 Jupyter Notebook phases completed
-
-🤖 3 Machine Learning models evaluated
-
-🏆 1 Best-performing model selected (Random Forest)
-
-📊 4 Interactive Power BI dashboard pages created
-
-📌 98 IT incidents identified
+|📊 Project Highlights
 
 
-📉 9.80% incident rate detected
 
-💻 1 End-to-End Data Science & Machine Learning project completed
+| 📌 Metric                   |             📊 Value             |
+| --------------------------- | :------------------------------: |
+| 📁 Total Records Analyzed   |             **1,000**            |
+| 📊 Features Used            |              **25**              |
+| 📓 Jupyter Notebook Phases  |               **5**              |
+| 🤖 ML Models Evaluated      |               **3**              |
+| 🏆 Best Performing Model    |         **Random Forest**        |
+| 📈 Power BI Dashboard Pages |               **4**              |
+| 🚨 IT Incidents Detected    |              **98**              |
+| 📉 Incident Rate            |             **9.80%**            |
+| 💼 Project Type             | **End-to-End Data Science & ML** |
 
-🎯 Business Problems Solved
 
-🚨 Predicts potential IT incidents before they impact business operations.
+💼 Business Value Delivered
 
-⏱️ Reduces system downtime by identifying high-risk infrastructure early.
 
-📊 Helps IT teams prioritize critical incidents using data-driven insights.
-
-🔧 Supports proactive maintenance based on server health and anomaly patterns.
-
-📈 Improves operational efficiency through interactive Power BI dashboards and machine learning predictions.
+| 🎯 Business Objective        | ✅ Business Impact                                         |
+| ---------------------------- | --------------------------------------------------------- |
+| 🚨 Early Incident Prediction | Predicts IT incidents before business disruption          |
+| ⏱️ Downtime Reduction        | Identifies high-risk infrastructure early                 |
+| 📊 Smarter Decision Making   | Enables data-driven incident prioritization               |
+| 🔧 Preventive Maintenance    | Detects maintenance needs using anomaly patterns          |
+| 📈 Operational Visibility    | Interactive Power BI dashboards for monitoring            |
+| 💰 Cost Optimization         | Helps reduce losses from unplanned outages                |
+| 🛡️ System Reliability       | Improves infrastructure stability and business continuity |
