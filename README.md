@@ -1,16 +1,13 @@
 # 🚀 AI-Powered IT Incident Prediction & Prevention System
 
----## 📌 Project Overview
+📌 Project Overview
 
-The **AI-Powered IT Incident Prediction & Prevention System** is a complete data science and machine learning project designed to predict IT incidents before they occur.
+The AI-Powered IT Incident Prediction & Prevention System is a complete data science and machine learning project designed to predict IT incidents before they occur.
 
 This project analyzes server performance metrics such as CPU usage, memory usage, disk usage, network latency, response time, error count, anomaly score, and maintenance status to identify high-risk infrastructure and support proactive IT operations.
 
 The final solution includes **Python-based analysis, machine learning models, model evaluation, and a Power BI dashboard** for business insights.
-
----
-
-## 🎯 Business Problem
+ 🎯 Business Problem
 
 System outages and IT incidents can cause:
 
@@ -20,11 +17,9 @@ System outages and IT incidents can cause:
 * 🛠️ Increased incident response workload
 * 📉 Reduced system reliability
 
-Traditional monitoring often detects problems **after** they occur. This project uses predictive analytics to identify possible incidents early.
+Traditional monitoring often detects problems after they occur. This project uses predictive analytics to identify possible incidents early.
 
----
-
-## 💡 Solution
+💡 Solution
 
 This project uses machine learning to predict whether an IT incident is likely to occur.
 
@@ -37,9 +32,7 @@ The system helps IT teams:
 * Improve incident response time
 * Support proactive maintenance
 
----
-
-## 🧠 Technologies Used
+ 🧠 Technologies Used
 
 | Category         | Tools                                             |
 | ---------------- | ------------------------------------------------- |
@@ -52,11 +45,9 @@ The system helps IT teams:
 | Repository       | GitHub                                            |
 | File Formats     | CSV, IPYNB, PBIX, PKL                             |
 
----
+ 📂 Project Structure
 
-## 📂 Project Structure
-
-```text
+text
 AI-Powered-IT-Incident-Prediction-Prevention-System
 │
 ├── 01_Phase1_Data_Understanding_Cleaning.ipynb
@@ -71,15 +62,11 @@ AI-Powered-IT-Incident-Prediction-Prevention-System
 │
 ├── README.md
 └── LICENSE
-```
+📊 Dataset Information
 
----
+The dataset contains 1,000 IT system monitoring records with server performance and incident details.
 
-## 📊 Dataset Information
-
-The dataset contains **1,000 IT system monitoring records** with server performance and incident details.
-
-### Important Columns
+ Important Columns
 
 | Column               | Meaning                        |
 | -------------------- | ------------------------------ |
@@ -94,9 +81,7 @@ The dataset contains **1,000 IT system monitoring records** with server performa
 | `anomaly_score`      | Risk/anomaly score             |
 | `incident_occurred`  | Target column: Yes or No       |
 
----
-
-## 🧹 Phase 1: Data Understanding and Cleaning
+🧹 Phase 1: Data Understanding and Cleaning
 
 In this phase:
 
@@ -110,13 +95,9 @@ In this phase:
 
 ✅ Output:
 
-```text
+text
 Cleaned_IT_Incident_Data.csv
-```
-
----
-
-## 📈 Phase 2: Exploratory Data Analysis
+ 📈 Phase 2: Exploratory Data Analysis
 
 In this phase, different patterns were analyzed:
 
@@ -130,17 +111,14 @@ In this phase, different patterns were analyzed:
 * CPU, memory, disk and response-time comparison
 * Error count and anomaly score analysis
 * Correlation heatmap
-
-### Key EDA Insights
+ Key EDA Insights
 
 * Incident records are lower than normal records, creating an imbalanced dataset.
 * CPU usage, response time, error count and anomaly score are strong indicators of incidents.
 * Some server types and departments show higher incident risk.
 * Open and critical incidents require faster attention.
 
----
-
-## 🏗️ Phase 3: Feature Engineering
+ 🏗️ Phase 3: Feature Engineering
 
 New features were created to improve model performance:
 
@@ -153,21 +131,19 @@ New features were created to improve model performance:
 
 Target mapping:
 
-```text
+text
 No  = 0
 Yes = 1
-```
+
 
 The dataset was split into:
 
-```text
+text
 80% Training Data
 20% Testing Data
-```
 
----
 
-## 🤖 Phase 4: Random Forest Model
+🤖 Phase 4: Random Forest Model
 
 A Random Forest model was trained to predict IT incidents.
 
@@ -178,9 +154,7 @@ The model was used to:
 * Calculate prediction probability
 * Identify important features
 
----
-
-## 🧪 Phase 5: Model Comparison and Evaluation
+🧪 Phase 5: Model Comparison and Evaluation
 
 Multiple models were compared:
 
@@ -198,18 +172,13 @@ Evaluation metrics used:
 * F1-score
 * ROC-AUC
 * Confusion Matrix
+Important Note
 
-### Important Note
-
-For IT incident prediction, **Recall** is very important because missing a real incident can cause downtime.
-
----
-
-## 📊 Phase 6: Power BI Dashboard
+For IT incident prediction, Recall is very important because missing a real incident can cause downtime.
+ 📊 Phase 6: Power BI Dashboard
 
 A professional Power BI dashboard was created with four pages:
-
-### 📌 Page 1: Executive Overview
+ 📌 Page 1: Executive Overview
 
 * Total Records
 * Total Incidents
@@ -219,8 +188,7 @@ A professional Power BI dashboard was created with four pages:
 * Monthly Incident Trend
 * Incident Severity
 * Incident Types
-
-### ⚙️ Page 2: System Performance
+ ⚙️ Page 2: System Performance
 
 * CPU Usage
 * Memory Usage
@@ -230,7 +198,7 @@ A professional Power BI dashboard was created with four pages:
 * Error Count
 * Anomaly Score
 
-### 🚨 Page 3: Incident Analysis
+ 🚨 Page 3: Incident Analysis
 
 * Critical Incidents
 * Resolved Incidents
@@ -242,15 +210,14 @@ A professional Power BI dashboard was created with four pages:
 * Maintenance Analysis
 * High-Risk Server Table
 
-### 📌 Page 4: Summary
+ 📌 Page 4: Summary
 
 * Key Findings
 * Business Recommendations
 * Final Conclusion
 
----
 
-## 📌 Key Business Insights
+📌 Key Business Insights
 
 * High CPU usage increases incident risk.
 * High response time may indicate system slowdown.
@@ -259,9 +226,8 @@ A professional Power BI dashboard was created with four pages:
 * Maintenance-due systems need proactive monitoring.
 * Critical and open incidents should be prioritized.
 
----
 
-## ✅ Business Recommendations
+ ✅ Business Recommendations
 
 * Monitor high-risk servers continuously.
 * Set alerts for high anomaly scores.
@@ -270,15 +236,13 @@ A professional Power BI dashboard was created with four pages:
 * Use CPU, memory, disk, response time and error count as early-warning indicators.
 * Review departments and server types with high incident rates.
 
----
-
-## 🖥️ Power BI Dashboard
+ 🖥️ Power BI Dashboard
 
 The dashboard file is included in this repository:
 
-```text
+text
 AI_IT_Incident_Prediction_Dashboard.pbix
-```
+
 
 It provides interactive insights into:
 
@@ -289,32 +253,22 @@ It provides interactive insights into:
 * Maintenance status
 * Business recommendations
 
----
-
-## 🏆 Final Outcome
+ 🏆 Final Outcome
 
 This project successfully demonstrates how machine learning and business intelligence can be used together to improve IT operations.
 
 The system helps organizations move from **reactive incident handling** to **proactive incident prevention**.
 
----
+📌 Project Status
 
-## 📌 Project Status
-
-```text
+text
 ✅ Completed
-```
 
----
+ 👨‍💻 Author
 
-## 👨‍💻 Author
-
-**Sandeep Jadhav**
+Sandeep Jadhav
 
 GitHub: `jadhavsandep`
+ 📄 License
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
