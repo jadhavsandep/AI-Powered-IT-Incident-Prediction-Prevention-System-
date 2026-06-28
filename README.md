@@ -5,7 +5,7 @@
 | 📌 Metric                   |             📊 Value             |
 | --------------------------- | :------------------------------: |
 | 📁 Total Records Analyzed   |             **1,000**            |
-| 📊 Features Used            |              **25**              |
+| 📊 Features Analyzed                    **25**              |
 | 📓 Jupyter Notebook Phases  |               **5**              |
 | 🤖 ML Models Evaluated      |               **3**              |
 | 🏆 Best Performing Model    |         **Random Forest**        |
@@ -15,7 +15,7 @@
 | 💼 Project Type             | **End-to-End Data Science & ML** |
 
 
-💼 Business Value Delivered
+💼 Business Impact
 
 
 | 🎯 Business Objective        | ✅ Business Impact                                         |
@@ -27,3 +27,17 @@
 | 📈 Operational Visibility    | Interactive Power BI dashboards for monitoring            |
 | 💰 Cost Optimization         | Helps reduce losses from unplanned outages                |
 | 🛡️ System Reliability       | Improves infrastructure stability and business continuity |
+
+
+🛠️ Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| 🐍 Language | Python |
+| 📊 Data Analysis | Pandas, NumPy |
+| 📈 Visualization | Matplotlib, Seaborn |
+| 🤖 Machine Learning | Scikit-learn |
+| 🌲 Best Model | Random Forest |
+| 📊 Dashboard | Power BI |
+| 🔧 IDE | Jupyter Notebook |
+| 🗂️ Version Control | GitHub |
